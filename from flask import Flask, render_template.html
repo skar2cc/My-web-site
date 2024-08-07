@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sapere - Encyclopédie de la Culture Générale</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+        }
+        .book-title {
+            font-size: 2.5em;
+            margin: 20px 0;
+            animation: slideIn 2s ease-in-out;
+        }
+        .thank-you {
+            margin: 20px 0;
+            font-size: 1.2em;
+            animation: fadeIn 2s ease-in-out 2s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sapere</h1>
+        <p>Encyclopédie de la Culture Générale</p>
+    </header>
+    <main>
+        <div class="book-title">Sapere</div>
+        <p>Une encyclopédie complète pour enrichir votre culture générale et élargir vos connaissances.</p>
+        <div class="thank-you">
+            <p>À ma chère Vanessa,</p>
+            <p>Merci pour tout ton amour et ta présence réconfortante. Tu es ma source d'inspiration et de bonheur.</p>
+        </div>
+    </main>
+    <footer>
+        <p>الحمد لله</p>
+    </footer>
+</body>
+</html>
